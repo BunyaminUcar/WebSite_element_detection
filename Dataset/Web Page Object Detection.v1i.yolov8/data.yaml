@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 28
+names: ['audio', 'block', 'buy-option', 'captcha', 'chat-option', 'content', 'download', 'field', 'filter', 'follow-options', 'form', 'language', 'like', 'list', 'login-form', 'login-option', 'map', 'navigation-blocks', 'navigation-links', 'options', 'posts', 'search', 'share', 'sign-up-form', 'sign-up-option', 'upload', 'video', 'volume']
+
+roboflow:
+  workspace: web-page-summarizer
+  project: web-page-object-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/web-page-summarizer/web-page-object-detection/dataset/1
